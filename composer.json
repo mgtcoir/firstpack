@@ -1,0 +1,27 @@
+{
+    "name": "hosi/myp",
+    "description": "My test package",
+    "type": "package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hosi\\Myp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hossein",
+            "email": "hoseinphilips@gmail.com"
+        }
+    ],
+	"minimum-stability": "",
+    "require": {},
+	"extra": {
+    "laravel": {
+        "providers": [
+            "Hosi\\Myp\\mypServiceProvider"
+        ]
+       
+    }
+}
+}
